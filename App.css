@@ -1,0 +1,103 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.add-employee-form, .filter, .employee-list {
+  margin: 20px 0;
+}
+
+.add-employee-form input, .filter input, .filter select, .add-employee-form button {
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.add-employee-form button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-employee-form button:hover {
+  background-color: #45a049;
+}
+
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-list th, .employee-list td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.employee-list th {
+  background-color: #f2f2f2;
+}
+
+.employee-list button {
+  padding: 4px 8px;
+  margin-right: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.employee-list button:first-child {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+}
+
+.employee-list button:last-child {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+.edit-employee-form, .add-employee-form {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.edit-employee-form h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.edit-employee-form input, .edit-employee-form button,
+.add-employee-form input, .add-employee-form button {
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.edit-employee-form button, .add-employee-form button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit-employee-form button:hover, .add-employee-form button:hover {
+  background-color: #45a049;
+}
